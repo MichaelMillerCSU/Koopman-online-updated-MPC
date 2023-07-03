@@ -1,0 +1,1 @@
+Tank_new.mat contains the weights and bias of NN Encoder-Decoder for N_K = 10 dimensional lifted vector

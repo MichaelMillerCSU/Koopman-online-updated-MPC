@@ -1,5 +1,7 @@
 # Koopman-online-updated-MPC
 
+# Code and Data for paper "Learning Model Predictive Control of Nonlinear Systems with Time-varying Parameters Using Koopman Operator"
+
 Run duffing.py and vanderpol.py can generate the figures in the paper.
 
 The training file is DeepLearning_KoopmanControl_Approach3.py.

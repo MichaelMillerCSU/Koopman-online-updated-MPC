@@ -235,8 +235,8 @@ for i = 1 : Steps
         K_A = zeros(Nlift, Nlift + nu);
 %         K_A = Ylift * V';
         invK_G = 1e4 * eye(Nlift + nu);
-%         invK_G = pinv(invK_G);
-        invK_G = pinv(VVt);
+%        invK_G = pinv(invK_G);
+%        invK_G = pinv(VVt);
         invK_G = invK_G - (invK_G * [liftFun([x]); U0] * [liftFun([x]); U0]'* invK_G) / (1 + [liftFun([x]); U0]' * invK_G * [liftFun([x]); U0]);
         K_A = K_A + [liftFun([y])] * [liftFun([x]); U0]';
     else

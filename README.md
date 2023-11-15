@@ -8,6 +8,8 @@ The training file is DeepLearning_KoopmanControl_Approach3.py.
 
 pkl files are the parameters of \theta_D and \theta_E of duffing system and van der pol system for different systems.
 
-New example Cascaded Tank System is joined.
+New example Cascaded Tank System is added.
 
 The parameters of theta_D and \theta_E are transfer to mat file in Weights folder
+
+An One-dimensional system example is added, with lifted function trained by KMAE.
